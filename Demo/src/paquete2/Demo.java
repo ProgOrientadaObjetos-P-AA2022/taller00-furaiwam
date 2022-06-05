@@ -20,7 +20,7 @@ public class Demo {
      */
     public static void main(String[] args) {
         
-        System.out.printf(Mensaje.obtenerFrase()+ Valor.obtenerHabitantes());
+        System.out.printf("%s %d",Mensaje.obtenerFrase(), Valor.obtenerHabitantes());
     }
     
 }
